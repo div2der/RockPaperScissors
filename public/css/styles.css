@@ -1,0 +1,132 @@
+
+body{
+    text-align:center;
+    background-color:rgb(255, 255, 255);
+  }
+  
+  .button{
+    position:relative;
+    display:inline-block;
+    margin:20px;
+  }
+  
+  .button a{
+    color:hsl(240, 6%, 94%);
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:36px;
+    text-align: center;
+    text-decoration:none;
+    background-color:hsl(40, 80%, 57%);
+    display:block;
+    position:relative;
+    padding:20px 40px;
+    
+    -webkit-tap-highlight-color: #87d31dab;
+    text-shadow: 0px 1px 0px #000000ea;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #80c432;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #80c432;
+    box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #80c432;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .button a:active{
+    top:10px;
+    background-color:#80c432;;
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #80c432;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #80c432;
+    box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #80c432;
+  }
+
+ 
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    color: hsla(276, 44%, 32%, 0.884);
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+
+
+  body {
+      font-family: Arial, sans-serif;
+      background-color: hsl(120, 6%, 94%); 
+      text-align: center;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #FFF; 
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+      color: #333;
+      font-size: 28px; 
+  }
+  
+  .input-container {
+      margin-bottom: 20px;
+  }
+  
+  label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  
+  .gesture-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  }
+  
+  .gesture {
+      flex: 1;
+      padding: 10px;
+      background-color: #3770da;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+  }
+  
+  .gesture:hover {
+      background-color: #204bb9;
+  }
+  
+  .result {
+      font-weight: bold;
+      font-size: 18px;
+      color: #333;
+      margin-top: 20px;
+  }
+  
+  
+  
+  
